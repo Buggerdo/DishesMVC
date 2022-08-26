@@ -11,8 +11,6 @@
         public void Display()
         {
             string ingredients = string.Join(", ", Dish.Ingredients);
-            //string ingredients = string.Empty;
-            //Dish.Ingredients.ForEach(i => ingredients += i + ", ");
 
             Console.WriteLine($"Name: {Dish.Name}" +
                 $"\nDescription: {Dish.Description}" +
