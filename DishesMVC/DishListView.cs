@@ -14,7 +14,7 @@
             Console.WriteLine("Here is out list of dishes:");
             foreach(var dish in Dishes)
             {
-                Console.WriteLine($"{dish.Name} - {dish.Description} - {dish.Calories}");
+                Console.WriteLine($"{Dishes.IndexOf(dish) + 1}. {dish.Name} - {dish.Description} - {dish.Calories}");
             }
         }
     }
