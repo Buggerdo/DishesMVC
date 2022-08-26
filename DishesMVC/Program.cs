@@ -4,6 +4,8 @@
     {
         static void Main()
         {
+            DishController controller = new();
+            controller.Welcome();
         }
     }
 }
